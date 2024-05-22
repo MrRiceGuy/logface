@@ -1,8 +1,16 @@
 /* styles.css */
 
+
+#logContainer{
+width: 80vw;
+display: inline-block;
+}
+
+
 #logEntries {
-    width: 50vw;
+    width: 70vw;
     white-space: pre-line;
+    margin:auto
 }
 
 .log-entry {
@@ -15,4 +23,41 @@
     display: block;
     max-width: 100%;
     margin-top: 5px;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+#banner{
+    margin:auto;
+    text-align: center;
+    width: 100vw;
+}
+
+#logInput{
+
+    margin:auto;
+    border: 6px solid black;
+    border-radius: 9px;
+    width: 70vw;
+}
+
+#saveButton,#imageInput-label{
+    font: normal normal normal 1.3rem Leviticus, sans-serif;
+    padding: 10px 15px;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 4%;
+    background-color: aliceblue;
+  }
+
+
+#imageInput{
+    display:none;
+}
+
+
+
+  #inputButtons{
+    width: 700px;
+    margin:auto;
 }

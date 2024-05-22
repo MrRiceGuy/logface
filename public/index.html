@@ -4,14 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log Application</title>
+    <title>Carsons Log</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="logContainer">
+        <div id = "banner"><h1>43-Freshman Year</h1></div>
         <textarea id="logInput" placeholder="Enter log entry here..."></textarea>
-        <input type="file" id="imageInput" accept="image/*">
-        <button id="saveButton">Save Log Entry</button>
+        <div id = "inputButtons">
+            <input type="file" id="imageInput" name = "imageInput" accept="image/*">
+            <label id="imageInput-label" for="imageInput"
+            >Select a File</label
+          >
+            <button id="saveButton">Save Log</button>
+        </div>
     </div>
     <div id="logEntries"></div>
     <script src="script.js"></script>
