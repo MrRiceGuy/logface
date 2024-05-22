@@ -1,0 +1,18 @@
+/* styles.css */
+
+#logEntries {
+    width: 50vw;
+    white-space: pre-line;
+}
+
+.log-entry {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.log-entry img {
+    display: block;
+    max-width: 100%;
+    margin-top: 5px;
+}

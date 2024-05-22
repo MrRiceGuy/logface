@@ -1,0 +1,41 @@
+[
+  "Mon May 13 2024 - 11:58 PM: Will I woik?",
+  "Tue May 14 2024 - 12:04 AM: Testing\nmultiple\nlines",
+  "Tue May 14 2024 - 12:04 AM: Testing\n    spaces\n        \n            and empty lines.",
+  "Tue May 14 2024 - 12:06 AM: Testing\n        spaces\n\n                     and empty lines.",
+  "Tue May 14 2024 - 12:09 AM: display\n\nthe empty\n\n             lines",
+  "yay\n\nyay?",
+  "Okay, I have this set up finally. Worked for 4 hrs with gpt 3.5 last night just to get this going. \n\nI'm hoping to give enough love to my neglected projects that they will survive in the wild by themselves.",
+  "It's not easy to get going and then once I get going I feel like I should stop because I've had to start over so much just by perfecting things. \nI guess I work with a lot of projects that are vulnerable to perfectionism.\n\nEither way, today my plan is to get this log onto the Github the way that it is. \n                \n      If it goes the way I want I can have a good log with a list of my local to-do's. Maybe I can make my OWN Jira like Kanban board... although I think a physical one might be better for me. \n\n      If I described all of the issues I had just STARTING this log, I would lose an hr. Oh man... DAYS if I really went into \"I first started to make a blog with a database..\"\n\n      Either way, thanks to Chat GPT for helping me out. It's just a lot quicker to get it going if you understand a little bit about it. I can tell it's in a spot where if I keep going I can get permanent results and that's EXACTLY what I am after.",
+  {
+    "timestamp": "May 19, 2024 at 9:16 PM",
+    "text": "Hello"
+  },
+  {
+    "timestamp": "May 19, 2024 at 9:17 PM",
+    "text": "Is this going to save in the\n                              same format\n                                          ...  or am I going to have that..."
+  },
+  "Let me guess... \"[Object}\"?",
+  "Well... I was happily wrong! \nGPT FTW.",
+  "9:43PM 5/19/2024. \n\nGot back from Niagara falls with the family just a few hrs ago. \nChat GPT got an update while I was gone. I was finally getting success with it making this log not goo long ago. ATM it won't display times and dates...\nSo for visibility, I've added the timestamp manually into the log. \nChi's trip planning skills make me sure she would be successful doing anything.",
+  {
+    "timestamp": "2024-05-21T10:07:51.370Z",
+    "log": "Hmm.",
+    "image": ""
+  },
+  {
+    "timestamp": "2024-05-21T10:17:00.446Z",
+    "log": "A bobbity booopy!",
+    "image": ""
+  },
+  {
+    "timestamp": "2024-05-22T00:47:06.840Z",
+    "log": "Testing a pic entry...",
+    "image": "/uploads/64b59e9927d891c06415bef2325a200d"
+  },
+  {
+    "timestamp": "2024-05-22T00:51:42.810Z",
+    "log": "Wets twy vis again.",
+    "image": "/uploads/9c0f1ccf686e69ccabb15a795e51b950"
+  }
+]
