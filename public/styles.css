@@ -3,9 +3,19 @@
 
 #logContainer{
 width: 80vw;
-display: inline-block;
+margin:auto;
 }
 
+#banner h1{
+    font: normal normal normal 2.5em Georgia, sans-serif;
+
+}
+
+#banner{
+    margin:auto;
+    width: 100vw;
+    height: 50px;
+}
 
 #logEntries {
     width: 70vw;
@@ -17,8 +27,12 @@ display: inline-block;
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
+    background-color: #e7e7e7;
 }
 
+.log-entry p{
+    font:  normal normal normal 1.2em Georgia, sans-serif;
+}
 .log-entry img {
     display: block;
     max-width: 100%;
@@ -27,16 +41,11 @@ display: inline-block;
     border-radius: 6px;
 }
 
-#banner{
-    margin:auto;
-    text-align: center;
-    width: 100vw;
-}
+
 
 #logInput{
-
     margin:auto;
-    border: 6px solid black;
+    border: 4px solid black;
     border-radius: 9px;
     width: 70vw;
 }
