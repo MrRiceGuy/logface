@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', function() {
     const logInput = document.getElementById('logInput');
     const imageInput = document.getElementById('imageInput');
@@ -25,10 +23,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                     const formattedDate = timestamp.toLocaleDateString();
 
-                    const logContent = document.createElement('p');
-                    logContent.textContent = `${formattedDate} - ${formattedTime}: ${entry.log}`;
+                    const dateDiv = document.createElement('div');
+                    dateDiv.classList.add('log-date');
+                    dateDiv.textContent = `${formattedDate} - ${formattedTime}`;
 
-                    entryDiv.appendChild(logContent);
+                    const logContentDiv = document.createElement('div');
+                    logContentDiv.classList.add('log-content');
+                    logContentDiv.textContent = entry.log;
+
+                    entryDiv.appendChild(dateDiv);
+                    entryDiv.appendChild(logContentDiv);
 
                     if (entry.image) {
                         const img = document.createElement('img');

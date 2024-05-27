@@ -29,6 +29,11 @@ margin:auto;
     padding-bottom: 5px;
     background-color: #e7e7e7;
 }
+.log-date {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
 
 .log-entry p{
     font:  normal normal normal 1.2em Georgia, sans-serif;
@@ -58,7 +63,14 @@ margin:auto;
     border-radius: 4%;
     background-color: aliceblue;
   }
+  #saveButton:hover,#imageInput-label:hover{
 
+    margin: 3px;
+    border: 3px solid black;
+    border-radius: 4%;
+    background-color: rgb(180, 231, 206);
+    
+  }
 
 #imageInput{
     display:none;
