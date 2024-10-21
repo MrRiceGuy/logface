@@ -1,5 +1,13 @@
 /* styles.css */
 
+body{
+    background-image: url("../images/internationalTractor.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 80Vw;
+    background-position: center;
+}
+
 
 #logContainer{
 width: 80vw;
